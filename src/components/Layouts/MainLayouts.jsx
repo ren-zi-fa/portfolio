@@ -9,7 +9,7 @@ const MainLayouts = ({ children }) => {
     <>
       <div className={theme === "dark" ? "dark" : ""}>
         <Navbar />
-        <div className='pt-20 bg-blue-300 min-h-screen px-10 dark:bg-gray-600 '>{children}
+        <div className='pt-20 bg-blue-100 min-h-screen px-5 dark:bg-gray-600 '>{children}
           <IconWa/>
         </div>
       </div>
