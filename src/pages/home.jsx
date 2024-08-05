@@ -10,7 +10,7 @@ const Home = () => {
         <div className=''>
           <div className='grid grid-cols-1 1 w-full max-w-sm bg-white border border-gray-200 rounded-t-lg shadow dark:bg-gray-800 dark:border-gray-700 h-max px-24 '>
             <div className='text-center border-b-2 md:mb-4 mb-0'>
-              <img src='../../images/renzi.jpg' alt='' className='w-24 h-24 mb-3  mt-4 rounded-full shadow-lg mx-auto' />
+              <img src='../images/renzi.jpg' alt='' className='w-24 h-24 mb-3  mt-4 rounded-full shadow-lg mx-auto' />
               <h1 className='text-xl font-bold '>Renzi</h1>
               <h2 className='text-xl font-bold '>Pebriandika</h2>
             </div>
