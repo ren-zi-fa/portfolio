@@ -37,7 +37,7 @@ const Navbar = () => {
                   {link.name === "project" ? (
                     <Dropdown link={link} />
                   ) : (
-                    <Link to={link.link} className=' hover:text-gray-400 duration-100'>
+                    <Link to={link.link} className=' hover:text-gray-400 duration-100 '>
                       {link.name}
                     </Link>
                   )}
