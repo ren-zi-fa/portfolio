@@ -38,7 +38,7 @@ const router = createBrowserRouter(
       errorElement: <ErrorPageNotfound />,
     },
   ],
-  { basename: import.meta.env.DEV ? "/" : "/react-vite-gh-pages/" }
+  { basename: import.meta.env.DEV ? "/" : "/portfolio/" }
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
