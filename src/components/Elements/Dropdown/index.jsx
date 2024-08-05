@@ -30,7 +30,7 @@ const Dropdown = ({ link }) => {
           {isDropDownOpen ? <IconChevronUp className='ml-2 mt-1 ' stroke={2} /> : <IconChevronDown className='ml-2 mt-1' stroke={2} />}
         </div>
       </div>
-      <ul className={`block md:absolute mt-0 md:mt-4 mr-10 w-[300px] md:w-[400px] shadow-md rounded left-0 md:left-[-30px] bg-slate-200 dark:bg-slate-600 tracking-widest  md:right-0 transition-all duration-500 ease-in ${isDropDownOpen ? "block" : "hidden"}`}>
+      <ul className={`block md:absolute mt-0 md:mt-4 mr-10 w-[215px] md:w-[400px] shadow-md rounded left-0 md:left-[-30px] bg-slate-200 dark:bg-slate-600 tracking-widest  md:right-0 transition-all duration-500 ease-in ${isDropDownOpen ? "block" : "hidden"}`}>
         <li className='px-4 py-5 grid grid-cols-2'>
           {menuDropdown.map((item, index) => (
             <Link to={item.link} key={index} className='underline hover:text-red-500 py-2 text-sm'>

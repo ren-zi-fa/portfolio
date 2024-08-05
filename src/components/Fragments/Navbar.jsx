@@ -21,19 +21,19 @@ const Navbar = () => {
 
   return (
     <div className={theme === "dark" ? "dark" : ""}>
-      <div className='shadow-md w-full fixed top-0 left-0 z-10 h-16 bg-white dark:bg-gray-900'>
-        <div className='flex items-center justify-between py-4 px-7 md:px-10'>
+      <div className='shadow-md w-full fixed top-0 left-0 z-10 h-16 bg-white dark:bg-gray-900 '>
+        <div className='flex items-center justify-between py-4 px-7 md:px-10  w-full'>
           <div onClick={() => setIsOpen(!isOpen)} className='text-3xl cursor-pointer md:hidden text-black dark:text-white'>
             {isOpen ? <IconX /> : <IconMenu2 />}
           </div>
           <div className='font-bold text-2xl cursor-pointer font-[Ravie] text-gray-800 dark:text-white tracking-widest'>Renzi</div>
           <div className='flex items-center'>
             <ul
-              className={`md:flex md:items-center md:pb-0 pb-12 pr-10 absolute md:h-0 h-[700px] md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in top-16 bg-white dark:bg-gray-900 font-[Dragonfly] font-semibold leading-relaxed text-gray-900 dark:text-white  ${
-                isOpen ? "left-0" : "left-[-780px]"
+              className={`md:flex md:items-center md:pb-0 pb-12 absolute  border-r-2 border-slate-400 md:h-0 h-[700px] md:static  md:z-auto z-[-1] left-0 w-64 md:w-auto md:pl-0 pl-9 transition-all duration-700 ease-in top-16 bg-white dark:bg-gray-900 font-[Dragonfly] font-semibold leading-relaxed text-gray-900 dark:text-white top-0  ${
+                isOpen ? "left-0" : "left-[-780px] "
               }`}>
               {Links.map((link) => (
-                <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 relative font-semibold border-b-2 '>
+                <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 relative font-semibold border-b-2'>
                   {link.name === "project" ? (
                     <Dropdown link={link} />
                   ) : (
