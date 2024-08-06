@@ -18,9 +18,9 @@ const Dropdown = ({ link }) => {
   }, []);
 
   const menuDropdown = [
-    { name: "Laravel", link: "/project/laravel" },
-    { name: "react", link: "/project/react" },
-    { name: "nextJs", link: "/project/nextjs" },
+    { name: "Laravel", link: "/" },
+    { name: "react", link: "/" },
+    { name: "nextJs", link: "/" },
   ];
   return (
     <div ref={dropdownRef}>

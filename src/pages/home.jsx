@@ -6,7 +6,7 @@ import Download from "../components/Elements/Button/Download";
 const Home = () => {
   return (
     <>
-      <div className='min-h-fit px-5 py-4 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 grid grid-cols-1 md:grid-cols-2'>
+      <div className='min-h-fit px-5 py-4 rounded-md bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 grid grid-cols-1 md:grid-cols-2'>
         <div className=''>
           <div className='grid grid-cols-1 w-full max-w-sm bg-white border border-gray-200 rounded-t-lg shadow dark:bg-gray-800 dark:border-gray-700 h-max px-24 '>
             <div className='text-center border-b-2 md:mb-4 mb-0'>
